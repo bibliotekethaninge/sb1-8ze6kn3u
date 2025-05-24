@@ -18,7 +18,7 @@ const TwitchStream: React.FC = () => {
   return (
     <div style={{ width: '100vw', height: '100vh' }}>
       <iframe
-        src="https://player.twitch.tv/?channel=twitchdev&parent=localhost"
+        src="https://player.twitch.tv/?channel=twitchdev&parent=https://transportstyrelsen.netlify.app"
         frameBorder="0"
         allowFullScreen
         scrolling="no"
